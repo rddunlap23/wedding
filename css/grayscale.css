@@ -149,7 +149,7 @@ a:focus {
     background-size: contain;
     -o-background-size: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .intro .intro-body {
