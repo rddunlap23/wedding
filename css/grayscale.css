@@ -140,10 +140,15 @@ a:focus {
     color: #fff;
     background: url("../assets/photos/RyanAndWhit.jpg") no-repeat bottom center scroll;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+}
+
+@media(min-width:767px){
+    .intro{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;  
+    }
 }
 
 .intro .intro-body {
