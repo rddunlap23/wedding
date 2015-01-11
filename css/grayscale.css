@@ -142,11 +142,11 @@ a:focus {
 }
 
 .intro .row{
-    background: url("../assets/photos/RyanAndWhit.jpg") no-repeat fixed center center;
+    background: url("../assets/photos/RyanAndWhit.jpg") no-repeat center center fixed;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     -o-background-size: cover;
     width: 100%;
     height: auto;
