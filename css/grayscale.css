@@ -140,6 +140,7 @@ a:focus {
     }
 }
 
+
 .intro {
     display: table;
     width: 100%;
@@ -184,6 +185,13 @@ a:focus {
     }
 }
 
+
+@media(max-width: 766px){
+    .intro {
+        height: 500px;
+    }
+}
+    
 #about h1 {
     float: left;
 }
