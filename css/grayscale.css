@@ -143,6 +143,7 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
+    height: auto;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -152,7 +153,6 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: auto;
 }
 
 .intro .intro-body {
@@ -230,7 +230,6 @@ a:focus {
     font-size: 40px;
     color: #fff;
     background: 0 0;
-    position: relative;
     margin-top: 99%;
     margin-left: 40%;
     -webkit-transition: background .3s ease-in-out;
