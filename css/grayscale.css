@@ -32,9 +32,11 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
+    font-family: Muli,sans-serif;
 }
+
 
 @media(min-width:767px) {
     p {
@@ -112,7 +114,7 @@ a:focus {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
+        padding: 10px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
@@ -131,6 +133,11 @@ a:focus {
     }
 }
 
+#nav{
+    margin: 10px;
+    width: 100%;
+}
+
 .intro {
     display: table;
     width: 100%;
@@ -143,7 +150,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    height: 500px;
+    height: auto;
 }
 
 .intro .intro-body {
@@ -184,8 +191,17 @@ a:focus {
 }
 
 #about {    
-    margin-top: 100px;
+    margin-top: 200px;
     padding-bottom: 350px;
+}
+
+#about p{
+    text-align: left;
+    font-size: 16px;
+}
+
+#about img {
+    padding: 10px;
 }
 
 #about .row .tab-content{
@@ -213,7 +229,7 @@ a:focus {
     color: #fff;
     background: 0 0;
     position: relative;
-    margin-top: 92%;
+    margin-top: 99%;
     margin-left: 40%;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -333,6 +349,9 @@ a:focus {
     text-align: left;
 }
 
+#venue h2{
+    text-align: center;
+}
 #venue h3{
     margin-bottom: 10px;
 }
@@ -350,6 +369,10 @@ a:focus {
     margin-top: 5px;
     font-size: 15px;
     margin-bottom: 20px;
+}
+
+#venue iframe{
+    background-color: white;
 }
 
 .lodge-section p{
@@ -377,9 +400,50 @@ a:focus {
 }
 
 
-/*#RSVP{
-    padding-top: 100px;
-}*/
+#Registry{
+    padding-top: 150px;
+    padding-bottom: 350px;
+}
+
+#RSVP{
+    padding-bottom: 350px;
+}
+
+#contact p a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.registry-stores{
+    padding-bottom: 60px;
+}
+.reg-box {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#Registry .square {
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 4px rgba(50, 50, 50, 0.2) inset;
+    height: 275px;
+    margin: 0px 1% 0px 1%;
+    width: 275px;
+}
+#Registry .surlatable {
+    background: url("../assets/photos/surlatable.jpg") no-repeat bottom center scroll;
+    background-size: cover;
+}
+
+#Registry .surlatable:hover
+{
+    border: 5px solid #6EC9E0;
+}
+
+#contact {
+    padding-bottom: 200px;
+}
+
 
 #map {
     width: 100%;
